@@ -1,6 +1,5 @@
 package days30ofcode.day0;
 
-
 import java.util.*;
 
 public class Solution {
