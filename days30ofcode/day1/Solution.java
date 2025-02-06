@@ -2,29 +2,40 @@ package days30ofcode.day1;
 
 import java.util.Scanner;
 
-public class Solution {
-    int i =  4;
-    double d = 4.0;
-    String s = "HackerRank";
+public  class Solution{
+    public static void main(String[] args) {
 
-Scanner scanner = new Scanner(System.in);
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
 
-int inputInt = scanner.nextInt();
-double inputDouble = scanner.nextDouble();
 
-scanner.nextLine();
+        Scanner scanner = new Scanner(System.in);
 
-String inputString = scanner.nextLine();
 
-int sumInt = i + inputInt;
-System.out.println(sumInt);
+        int inputInt = scanner.nextInt();
 
-double sumDouble = d + inputDouble;
-System.out.printf("%.1f%n", sumDouble);
 
-String concatenatedString = s + inputString;
-System.out.println(concatenatedString);
+        double inputDouble = scanner.nextDouble();
 
-scanner.close();
 
+        scanner.nextLine();
+
+
+        String inputString = scanner.nextLine();
+
+
+        int sumInt = i + inputInt;
+        System.out.println(sumInt);
+
+
+        double sumDouble = d + inputDouble;
+        System.out.printf("%.1f%n", sumDouble);
+
+
+        String concatenatedString = s + inputString;
+        System.out.println(concatenatedString);
+
+        scanner.close();
+    }
 }
